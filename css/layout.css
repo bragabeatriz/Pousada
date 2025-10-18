@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header.cabecalho{
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+    padding-top: 20px; /*Margem superior do elemento*/
+    padding-bottom: 20px; /*Margem inferior do elemento*/
+}
+
+header.cabecalho img.logo{
+    display: block;/*Converte o elemento em bloco*/
+    margin: auto;/*Centraliza o elemento*/
+}
+
+nav.menu{
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    background-color: burlywood;
+    text-align: center; 
+}
+
+nav.menu ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav.menu ul li a{
+    color:#1c1c1c;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav.menu ul li a:hover{
+    color: bisque;
+}
+
+article.banner{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+section.container{
+    width: 1200px;
+    height: auto;
+    /*border: 1px solid #1c1c1c;*/
+    margin: auto;
+    margin-top: 30px;
+}
+
+footer.rodape{
+    width:100%;
+    height:370px;
+    background-color: burlywood;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+footer.rodape div.boxprincipal{
+    width: 1200px;
+    height: 370px;
+    /*background-color: antiquewhite;*/
+    margin: auto;
+}
+
+footer.rodape div.boxprincipal div.box1{
+    width: 380px;
+    height: 370px;
+    /*background-color: #1c1c1c;*/
+    float: left;
+
+}
+
+footer.rodape div.boxprincipal div.box2{
+    width: 380px;
+    height: 370px;
+    /*background-color: #1c1c1c;*/
+    float: left;
+    margin-left: 30px;
+
+}
+
+footer.rodape div.boxprincipal div.box3{
+    width: 380px;
+    height: 370px;
+    /*background-color: #1c1c1c;*/
+    float: right;
+
+}
+
+footer.rodape div.boxprincipal div.box1 h2,
+footer.rodape div.boxprincipal div.box2 h2,
+footer.rodape div.boxprincipal div.box3 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:#1c1c1c;
+}
+
+footer.rodape div.boxprincipal div.box1 p.paragrafo1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color:#1c1c1c;
+    font-weight: 900;
+}
+
+footer.rodape div.boxprincipal div.box1 p.paragrafo2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color:#1c1c1c;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+

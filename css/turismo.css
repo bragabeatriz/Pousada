@@ -1,0 +1,90 @@
+section.container div#turismo{
+    width: 1200px;
+    height: auto;
+}
+
+section.container div#turismo h1{
+    color:#1c1c1c;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+section.container div#turismo p{
+    color:#1c1c1c;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 28px;
+}
+section.container div#casapedra{
+    width: 1200px;
+    height: 310px;
+    /*background-color: beige; */
+    margin-top: 30px;
+}
+section.container div#casapedra div#fotocasapedra{
+    width: 400px;
+    height: 310px;
+    /*background-color: brown;*/
+    float: left;
+}
+
+section.container div#casapedra div#textocasapedra{
+    width: 700px;
+    height: 310px;
+    /*background-color: aquamarine;*/
+    float: right;
+}
+
+section.container div#casapedra div#textocasapedra h2{
+    color:#1c1c1c;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+section.container div#casapedra div#textocasapedra p{
+    color:#1c1c1c;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 28px;
+}
+
+section.container div#museu{
+    width: 1200px;
+    height: 310px;
+    /*background-color: beige;*/
+    margin-top: 30px;
+}
+
+section.container div#museu div#fotomuseu{
+    width: 400px;
+    height: 310px;
+    /*background-color: brown;*/
+    float: right;
+}
+
+section.container div#museu div#textomuseu{
+    width: 700px;
+    height: 310px;
+    /*background-color: aquamarine;*/
+    float: left;
+}
+
+section.container div#museu div#textomuseu h2{
+    color:#1c1c1c;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+section.container div#museu div#textomuseu p{
+    color:#1c1c1c;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 28px;
+}

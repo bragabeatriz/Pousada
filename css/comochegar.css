@@ -1,0 +1,107 @@
+
+   
+
+section.container div#comochegar {
+    width: 1200px;
+    height: auto;
+}
+
+section.container div#comochegar h1 {
+    color: #1c1c1c;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+section.container div#comochegar p {
+    color: #1c1c1c;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 28px;
+}
+
+section.container div#comochegarbox {
+    width: 1200px;
+    height: auto;
+    margin-top: 30px;
+
+}
+
+section.container div#imagemcomochegar {
+    width: 400px;
+    height: auto;
+    float: left;
+}
+
+section.container div#imagemcomochegar img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+section.container div#textocomochegar {
+    width: 760px;
+    float: right;
+}
+
+section.container div#textocomochegar2 {
+    clear: both;
+    margin-top: 20px;
+}
+
+
+
+   body{
+    font-family: Arial, sans-serif;
+    
+   }   
+   
+   section.container div#formulario{
+      background-color: #fff;
+      max-width: 600px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section.container div#formulario h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    section.container div#formulario label {
+      display: block;
+      margin-top: 15px;
+      color: #333;
+    }
+
+    section.container div#formulario input[type="text"],
+    section.container div#formulario input[type="email"],
+    section.container div#formulario textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    section.container div#formulario textarea {
+      height: 150px;
+    }
+    section.container div#formulario button {
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+    }
+    section.container div#formulario button:hover {
+      background-color: #45a049;
+    }
+
